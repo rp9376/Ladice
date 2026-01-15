@@ -25,8 +25,9 @@ Meet the cast of characters and obstacles from the high seas:
 ## 🕹️ Gameplay
 
 *   **Navigate:** Click and hold on your boat to guide it.
-*   **Survive:** Dodge icebergs, crystals, and enemy boats.
-*   **Score:** Avoid hitting friendly animals (like Pingo and Zabika) to keep your score high!
+*   **Attack:** Ram into **enemy pirate ships** to gain points! 🏴‍☠️
+*   **Survive:** **AVOID** obstacles like **Icebergs** and **Lilipads**, or it's game over! ❄️🌿
+*   **Mercy:** Do not hit friendly animals (Pingo, Zabika) or you lose points. 🐧
 *   **Levels:** Progress through 3 increasingly difficult levels.
 
 ---
