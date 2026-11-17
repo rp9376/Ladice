@@ -1,0 +1,52 @@
+{
+  "repairCost": 8,
+  "upgrades": {
+    "hull": {
+      "currency": "doubloons",
+      "costs": [
+        40,
+        90
+      ]
+    },
+    "ram": {
+      "currency": "doubloons",
+      "costs": [
+        25,
+        55
+      ]
+    },
+    "engine": {
+      "currency": "doubloons",
+      "costs": [
+        20,
+        40,
+        65
+      ]
+    },
+    "boost": {
+      "currency": "doubloons",
+      "costs": [
+        20,
+        35,
+        55
+      ]
+    },
+    "lantern": {
+      "currency": "pearls",
+      "costs": [
+        2,
+        4,
+        6
+      ]
+    },
+    "flare": {
+      "currency": "pearls",
+      "costs": [
+        2,
+        4
+      ]
+    }
+  },
+  "crewSlots": 3,
+  "repairCostPerSea": 3
+}

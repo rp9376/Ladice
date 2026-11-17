@@ -1,16 +1,6 @@
-build/
-bin/
-lib/
-*.o
-*.a
-*.so
-*.dylib
-*.dll
-*.exe
-Ladice
+# Shared across sub-projects (each has its own .gitignore too)
 .DS_Store
+Thumbs.db
 .vscode/
-*.user
-*.layout
-*.depend
-*.cbp
+.idea/
+*.swp

@@ -1,66 +1,40 @@
 # 🚢 Ladice
 
-> **"A legendary artifact from the pre-AI era."**
+*Ladice* is Slovenian for "little boats". This repo holds two games about a small boat on a night sea, made twelve years apart.
 
-**Ladice** is a 2D arcade survival game where you navigate a boat through treacherous waters, dodging obstacles and enemies while trying to keep your score high.
+| Project | What it is | Stack |
+|---|---|---|
+| [`ladice-classic/`](ladice-classic) | The original: my first game, written in high school at Vegova. Kept as a museum piece, only patched to build on Linux. | C++17, SDL2, Make |
+| [`lantern-tide/`](lantern-tide) | **Ladice: Lantern Tide**, a new game built on the original's ideas: lantern-lit fog of war, ramming pirates, sparing the animals. Runs in the browser. | TypeScript, Phaser 3, Vite |
 
-This project holds a special place in history: it was **my very first game**, hand-coded in C++ during my high school years at **Vegova** (Electrotechnical-Computer Vocational School and Gymnasium Ljubljana).
+<p align="center">
+  <img src="ladice-classic/assets/playerboat.png" width="120" alt="The player's boat from the original game">
+</p>
 
-Back then, there were no LLMs, no Copilot, just raw determination, `std::cout`, and a bunch of headbanging. Today, it has been dusted off, polished, and "imped" with the power of modern AI to run smoothly on Linux.
+**▶ Play Lantern Tide in your browser: https://rp9376.github.io/Ladice/**
 
----
+## Quick start
 
-## 🎨 Gallery
+**Classic** (needs SDL2 dev packages, see its [README](ladice-classic/README.md)):
 
-Meet the cast of characters and obstacles from the high seas:
-
-| **The Enemy** | **The Friendly Pingo** | **The Hero** |
-| :---: | :---: | :---: |
-| <img src="assets/enemyboat.png" width="150" alt="Enemy Boat"> | <img src="assets/pingo.png" width="150" alt="Pingo"> | <img src="assets/playerboat.png" width="150" alt="Player Boat"> |
-
-> *Watch out for the Icebergs and Lilipads!*
-
----
-
-## 🕹️ Gameplay
-
-*   **Navigate:** Click and hold on your boat to guide it.
-*   **Attack:** Ram into **enemy pirate ships** to gain points! 🏴‍☠️
-*   **Survive:** **AVOID** obstacles like **Icebergs** and **Lilipads**, or it's game over! ❄️🌿
-*   **Mercy:** Do not hit friendly animals (Pingo, Zabika) or you lose points. 🐧
-*   **Levels:** Progress through 3 increasingly difficult levels.
-
----
-
-## 🛠️ How to Build & Run
-
-Originally built for Windows with Code::Blocks, the project has been modernized for Linux environments.
-
-### Prerequisites (Ubuntu/Debian)
 ```bash
-sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev build-essential
+cd ladice-classic
+make run
 ```
 
-### Installation
-1.  **Clone the repo** (or navigate to the folder).
-2.  **Build** using Make:
-    ```bash
-    make
-    ```
-3.  **Run**:
-    ```bash
-    ./bin/Ladice
-    ```
-    *(Or simply `make run`)*
+**Lantern Tide** (needs Node 22):
 
----
+```bash
+cd lantern-tide
+npm install
+npm run dev    # http://localhost:5173
+```
 
-## 📜 History & Tech Stack
+## Layout
 
-*   **Origin:** Vegova High School Project.
-*   **Language:** C++ (Standard 17).
-*   **Library:** SDL2 (Simple DirectMedia Layer) for graphics and audio.
-*   **Refactoring:** In 2026, the codebase was modernized by **Antigravity** (an AI Agent). We fixed memory management, replaced the build system with `Make`, resolved renderer conflicts, and ensured Linux compatibility.
-
----
-*Made with ❤️, C++, and a touch of AI magic.*
+```
+.
+├── ladice-classic/      original C++/SDL2 game (src/, include/, assets/, Makefile)
+├── lantern-tide/        the successor (src/, tests/, design notes in PLAN.md)
+└── .github/workflows/   pages.yml builds lantern-tide and publishes it to GitHub Pages
+```

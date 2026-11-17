@@ -1,0 +1,17 @@
+obj/
+build/
+bin/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+Ladice
+.DS_Store
+.vscode/
+*.user
+*.layout
+*.depend
+*.cbp

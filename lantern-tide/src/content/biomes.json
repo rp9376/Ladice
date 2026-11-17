@@ -1,0 +1,127 @@
+{
+  "ice": {
+    "baseScore": 100,
+    "animal": "pingo",
+    "animals": 3,
+    "pirates": 5,
+    "pirateMix": {
+      "dinghy": 6,
+      "sloop": 3
+    },
+    "hazards": {
+      "iceberg": 11,
+      "floe": 5
+    },
+    "boss": "frostbeard",
+    "dark": 0.8,
+    "lanternFactor": 1,
+    "water": [
+      "#0a2540",
+      "#134a73",
+      "#9fd8ff"
+    ],
+    "accent": "#9fe6ff"
+  },
+  "swamp": {
+    "baseScore": 200,
+    "animal": "zabica",
+    "animals": 5,
+    "pirates": 5,
+    "pirateMix": {
+      "dinghy": 4,
+      "sloop": 2,
+      "netter": 2,
+      "douser": 2
+    },
+    "hazards": {
+      "lilypad": 16,
+      "root": 10
+    },
+    "boss": "bogqueen",
+    "dark": 0.86,
+    "lanternFactor": 0.88,
+    "water": [
+      "#0b2a1c",
+      "#1f5a3a",
+      "#b6f5a0"
+    ],
+    "accent": "#c8ff8a"
+  },
+  "crystal": {
+    "baseScore": 300,
+    "animal": "ribica",
+    "animals": 5,
+    "pirates": 5,
+    "pirateMix": {
+      "dinghy": 3,
+      "sloop": 3,
+      "netter": 1,
+      "douser": 1,
+      "brigantine": 2
+    },
+    "hazards": {
+      "crystal": 12
+    },
+    "boss": "ember",
+    "dark": 0.6,
+    "lanternFactor": 1,
+    "water": [
+      "#5a1c22",
+      "#d0602a",
+      "#ffe2a0"
+    ],
+    "accent": "#ffc56e"
+  },
+  "reef": {
+    "baseScore": 400,
+    "animal": "turtle",
+    "animals": 5,
+    "pirates": 6,
+    "pirateMix": {
+      "dinghy": 3,
+      "sloop": 3,
+      "netter": 2,
+      "douser": 2,
+      "brigantine": 2
+    },
+    "hazards": {
+      "reef": 14
+    },
+    "boss": "netmaker",
+    "dark": 0.8,
+    "lanternFactor": 1,
+    "water": [
+      "#07363f",
+      "#12807f",
+      "#9ff8e4"
+    ],
+    "accent": "#7ef0d8"
+  },
+  "deep": {
+    "baseScore": 500,
+    "animal": "mixed",
+    "animals": 5,
+    "pirates": 6,
+    "pirateMix": {
+      "dinghy": 2,
+      "sloop": 3,
+      "netter": 1,
+      "douser": 2,
+      "brigantine": 2,
+      "ghost": 3
+    },
+    "hazards": {
+      "whirlpool": 3,
+      "wreck": 8
+    },
+    "boss": "galleon",
+    "dark": 0.86,
+    "lanternFactor": 1,
+    "water": [
+      "#0b1238",
+      "#27358a",
+      "#d5ddff"
+    ],
+    "accent": "#cdd6ff"
+  }
+}

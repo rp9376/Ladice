@@ -1,0 +1,8 @@
+{
+  "dinghy":     { "radius": 16, "hp": 1, "speed": 120, "fastSpeed": 205, "notice": 215, "scoreMult": 1,   "coins": 1 },
+  "sloop":      { "radius": 20, "hp": 2, "speed": 110, "fastSpeed": 165, "notice": 330, "scoreMult": 1.5, "coins": 2, "fireCooldown": 3.4, "orbit": 240 },
+  "netter":     { "radius": 22, "hp": 2, "speed": 100, "fastSpeed": 150, "notice": 230, "scoreMult": 1.5, "coins": 3 },
+  "douser":     { "radius": 16, "hp": 1, "speed": 115, "fastSpeed": 340, "notice": 290, "scoreMult": 1.5, "coins": 2 },
+  "brigantine": { "radius": 28, "hp": 3, "speed": 75,  "fastSpeed": 95,  "notice": 380, "scoreMult": 3,   "coins": 5, "fireCooldown": 4.4, "orbit": 290, "armorArc": 1.0 },
+  "ghost":      { "radius": 16, "hp": 1, "speed": 150, "fastSpeed": 215, "notice": 190, "scoreMult": 2,   "coins": 3 }
+}

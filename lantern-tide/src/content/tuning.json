@@ -1,0 +1,132 @@
+{
+  "arena": {
+    "width": 2200,
+    "height": 1400
+  },
+  "boat": {
+    "radius": 15,
+    "accel": 560,
+    "maxSpeed": 255,
+    "lateralGrip": 5.5,
+    "driftGrip": 1.3,
+    "turnRate": 4.6,
+    "brakeTurnRate": 7.5,
+    "brakeDrag": 2.4,
+    "boostImpulse": 250,
+    "boostMaxSpeed": 480,
+    "boostTime": 0.6,
+    "boostCooldown": 2.0,
+    "ramSpeed": 150,
+    "heavyRamSpeed": 370,
+    "invulnTime": 1.6,
+    "planks": 3,
+    "towSlow": 0.07,
+    "padSlow": 0.55,
+    "bonkSpeed": 75
+  },
+  "lantern": {
+    "radius": 235,
+    "minFactor": 0.55,
+    "oilTime": 42,
+    "barrelOil": 0.4,
+    "fireflyOil": 0.14,
+    "glintRange": 3.0,
+    "flareCooldown": 14,
+    "flareTime": 1.5,
+    "flareStun": 0.7,
+    "flareRadius": 720
+  },
+  "score": {
+    "animalHit": -50,
+    "nearMiss": 25,
+    "gentleCaptain": 200,
+    "rescue": 150,
+    "assist": 50,
+    "chipHit": 25,
+    "comboWindow": 2.5,
+    "comboSteps": [
+      1,
+      2,
+      3,
+      5
+    ],
+    "timeBonusPerKill": 1,
+    "timeBonusCap": 8,
+    "secondsLeftBonus": 10,
+    "monsterAt": 3
+  },
+  "upgradeEffects": {
+    "enginePerLevel": 0.08,
+    "lanternRadiusPerLevel": 0.12,
+    "lanternBurnPerLevel": 0.18,
+    "boostCooldownPerLevel": 0.15,
+    "flareCooldownPerLevel": 0.22,
+    "ramSpeedPerLevel": 0.15
+  },
+  "sea": [
+    {
+      "fire": 0.9,
+      "pirates": 0,
+      "oil": 1.1,
+      "hazards": 1.0,
+      "kegs": false,
+      "speed": 1.0,
+      "bossHp": 0,
+      "invuln": 1.6,
+      "score": 1.0,
+      "lead": 0.55,
+      "heat": 0.06,
+      "plankDrop": 0.14,
+      "bossRepair": 1,
+      "planks": 3
+    },
+    {
+      "fire": 1.2,
+      "pirates": 1,
+      "oil": 0.85,
+      "hazards": 1.15,
+      "kegs": true,
+      "speed": 1.06,
+      "bossHp": 1,
+      "invuln": 1.1,
+      "score": 1.25,
+      "lead": 0.85,
+      "heat": 0.14,
+      "plankDrop": 0.05,
+      "bossRepair": 1,
+      "planks": 3
+    },
+    {
+      "fire": 1.5,
+      "pirates": 2,
+      "oil": 0.7,
+      "hazards": 1.3,
+      "kegs": true,
+      "speed": 1.12,
+      "bossHp": 3,
+      "invuln": 0.9,
+      "score": 1.6,
+      "lead": 1.0,
+      "heat": 0.22,
+      "plankDrop": 0.0,
+      "bossRepair": 0,
+      "planks": 2
+    }
+  ],
+  "keg": {
+    "cooldown": 2.6,
+    "fuse": 1.9,
+    "radius": 52,
+    "range": 240
+  },
+  "untimed": {
+    "oil": 1.5,
+    "bountyGoal": 8,
+    "bountyPar": 70,
+    "beaconPar": 95,
+    "beaconScore": 2,
+    "douseTime": 4.0,
+    "lightRadius": 66,
+    "lightTime": 1.4
+  }
+}
